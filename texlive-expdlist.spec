@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/expdlist
+# catalog-date 2008-06-23 23:47:50 +0200
+# catalog-license lppl
+# catalog-version 2.4
 Name:		texlive-expdlist
 Version:	2.4
 Release:	1
@@ -49,6 +55,7 @@ list (so that, for example, numbered lists remain in sequence).
 %doc %{_texmfdistdir}/source/latex/expdlist/expdlist.drv
 %doc %{_texmfdistdir}/source/latex/expdlist/expdlist.dtx
 %doc %{_texmfdistdir}/source/latex/expdlist/expdlist.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ list (so that, for example, numbered lists remain in sequence).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
