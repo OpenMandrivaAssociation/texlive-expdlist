@@ -6,7 +6,7 @@
 # catalog-version 2.4
 Name:		texlive-expdlist
 Version:	2.4
-Release:	6
+Release:	7
 Summary:	Expanded description environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/expdlist
