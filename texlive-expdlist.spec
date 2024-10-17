@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Expanded description environments
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/expdlist
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/expdlist
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expdlist.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expdlist.doc.r%{version}.tar.xz
